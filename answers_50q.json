@@ -1,0 +1,502 @@
+[
+    {
+        "id":  1,
+        "distribution":  "factual",
+        "question":  "NhÃ¢n viÃªn Ä‘Æ°á»£c nghá»‰ bao nhiÃªu ngÃ y khi káº¿t hÃ´n?",
+        "answer":  "NhÃ¢n viÃªn Ä‘Æ°á»£c nghá»‰ 3 ngÃ y lÃ m viá»‡c cÃ³ lÆ°Æ¡ng khi káº¿t hÃ´n, khÃ´ng trá»« vÃ o phÃ©p nÄƒm.",
+        "contexts":  [
+                         "NhÃ¢n viÃªn Ä‘Æ°á»£c nghá»‰ 3 ngÃ y lÃ m viá»‡c cÃ³ lÆ°Æ¡ng khi káº¿t hÃ´n, khÃ´ng trá»« vÃ o phÃ©p nÄƒm."
+                     ],
+        "ground_truth":  "NhÃ¢n viÃªn Ä‘Æ°á»£c nghá»‰ 3 ngÃ y lÃ m viá»‡c cÃ³ lÆ°Æ¡ng khi káº¿t hÃ´n, khÃ´ng trá»« vÃ o phÃ©p nÄƒm."
+    },
+    {
+        "id":  2,
+        "distribution":  "factual",
+        "question":  "Báº£o hiá»ƒm sá»©c khá»e PVI cÃ³ háº¡n má»©c bao nhiÃªu cho nhÃ¢n viÃªn?",
+        "answer":  "Háº¡n má»©c báº£o hiá»ƒm sá»©c khá»e PVI cho nhÃ¢n viÃªn lÃ  200.000.000 VNÄ/nÄƒm, bao gá»“m ná»™i trÃº, ngoáº¡i trÃº vÃ  nha khoa.",
+        "contexts":  [
+                         "Háº¡n má»©c báº£o hiá»ƒm sá»©c khá»e PVI cho nhÃ¢n viÃªn lÃ  200.000.000 VNÄ/nÄƒm, bao gá»“m ná»™i trÃº, ngoáº¡i trÃº vÃ  nha khoa."
+                     ],
+        "ground_truth":  "Háº¡n má»©c báº£o hiá»ƒm sá»©c khá»e PVI cho nhÃ¢n viÃªn lÃ  200.000.000 VNÄ/nÄƒm, bao gá»“m ná»™i trÃº, ngoáº¡i trÃº vÃ  nha khoa."
+    },
+    {
+        "id":  3,
+        "distribution":  "factual",
+        "question":  "Phá»¥ cáº¥p Äƒn trÆ°a hÃ ng thÃ¡ng lÃ  bao nhiÃªu?",
+        "answer":  "Phá»¥ cáº¥p Äƒn trÆ°a lÃ  1.000.000 VNÄ/thÃ¡ng, chi tráº£ cÃ¹ng ká»³ lÆ°Æ¡ng.",
+        "contexts":  [
+                         "Phá»¥ cáº¥p Äƒn trÆ°a lÃ  1.000.000 VNÄ/thÃ¡ng, chi tráº£ cÃ¹ng ká»³ lÆ°Æ¡ng."
+                     ],
+        "ground_truth":  "Phá»¥ cáº¥p Äƒn trÆ°a lÃ  1.000.000 VNÄ/thÃ¡ng, chi tráº£ cÃ¹ng ká»³ lÆ°Æ¡ng."
+    },
+    {
+        "id":  4,
+        "distribution":  "factual",
+        "question":  "Mentor vÃ  buddy cá»§a nhÃ¢n viÃªn má»›i cÃ³ thá»ƒ lÃ  cÃ¹ng má»™t ngÆ°á»i khÃ´ng? Quáº£n lÃ½ trá»±c tiáº¿p cÃ³ thá»ƒ lÃ m mentor khÃ´ng?",
+        "answer":  "KHÃ”NG cho cáº£ hai. Mentor vÃ  buddy pháº£i lÃ  hai ngÆ°á»i khÃ¡c nhau. Quáº£n lÃ½ trá»±c tiáº¿p khÃ´ng Ä‘Æ°á»£c lÃ m mentor hoáº·c buddy.",
+        "contexts":  [
+                         "KHÃ”NG cho cáº£ hai. Mentor vÃ  buddy pháº£i lÃ  hai ngÆ°á»i khÃ¡c nhau. Quáº£n lÃ½ trá»±c tiáº¿p khÃ´ng Ä‘Æ°á»£c lÃ m mentor hoáº·c buddy."
+                     ],
+        "ground_truth":  "KHÃ”NG cho cáº£ hai. Mentor vÃ  buddy pháº£i lÃ  hai ngÆ°á»i khÃ¡c nhau. Quáº£n lÃ½ trá»±c tiáº¿p khÃ´ng Ä‘Æ°á»£c lÃ m mentor hoáº·c buddy."
+    },
+    {
+        "id":  5,
+        "distribution":  "factual",
+        "question":  "Muá»‘n mua thiáº¿t bá»‹ trá»‹ giÃ¡ 55 triá»‡u cáº§n ai phÃª duyá»‡t?",
+        "answer":  "ÄÆ¡n hÃ ng trÃªn 50.000.000 VNÄ cáº§n Tá»•ng GiÃ¡m Ä‘á»‘c (CEO) phÃª duyá»‡t.",
+        "contexts":  [
+                         "ÄÆ¡n hÃ ng trÃªn 50.000.000 VNÄ cáº§n Tá»•ng GiÃ¡m Ä‘á»‘c (CEO) phÃª duyá»‡t."
+                     ],
+        "ground_truth":  "ÄÆ¡n hÃ ng trÃªn 50.000.000 VNÄ cáº§n Tá»•ng GiÃ¡m Ä‘á»‘c (CEO) phÃª duyá»‡t."
+    },
+    {
+        "id":  6,
+        "distribution":  "factual",
+        "question":  "ThÃ´ng tin lÆ°Æ¡ng thuá»™c cáº¥p Ä‘á»™ phÃ¢n loáº¡i dá»¯ liá»‡u nÃ o?",
+        "answer":  "Theo quy cháº¿ chi tráº£ lÆ°Æ¡ng, thÃ´ng tin lÆ°Æ¡ng Ä‘Æ°á»£c phÃ¢n loáº¡i lÃ  dá»¯ liá»‡u BÃ­ máº­t (cáº¥p 3), cáº¥m chia sáº» vá»›i Ä‘á»“ng nghiá»‡p. Pháº£i mÃ£ hÃ³a khi truyá»n vÃ  háº¡n cháº¿ truy cáº­p theo need-to-know.",
+        "contexts":  [
+                         "Theo quy cháº¿ chi tráº£ lÆ°Æ¡ng, thÃ´ng tin lÆ°Æ¡ng Ä‘Æ°á»£c phÃ¢n loáº¡i lÃ  dá»¯ liá»‡u BÃ­ máº­t (cáº¥p 3), cáº¥m chia sáº» vá»›i Ä‘á»“ng nghiá»‡p. Pháº£i mÃ£ hÃ³a khi truyá»n vÃ  háº¡n cháº¿ truy cáº­p theo need-to-know."
+                     ],
+        "ground_truth":  "Theo quy cháº¿ chi tráº£ lÆ°Æ¡ng, thÃ´ng tin lÆ°Æ¡ng Ä‘Æ°á»£c phÃ¢n loáº¡i lÃ  dá»¯ liá»‡u BÃ­ máº­t (cáº¥p 3), cáº¥m chia sáº» vá»›i Ä‘á»“ng nghiá»‡p. Pháº£i mÃ£ hÃ³a khi truyá»n vÃ  háº¡n cháº¿ truy cáº­p theo need-to-know."
+    },
+    {
+        "id":  7,
+        "distribution":  "factual",
+        "question":  "Nghá»‰ phÃ©p khÃ´ng lÆ°Æ¡ng 20 ngÃ y cáº§n ai phÃª duyá»‡t?",
+        "answer":  "Nghá»‰ tá»« 16-30 ngÃ y khÃ´ng lÆ°Æ¡ng cáº§n phÃª duyá»‡t cá»§a GiÃ¡m Ä‘á»‘c Ä‘iá»u hÃ nh (CEO). LÆ°u Ã½: nghá»‰ trÃªn 14 ngÃ y khÃ´ng lÆ°Æ¡ng, nhÃ¢n viÃªn pháº£i tá»± Ä‘Ã³ng pháº§n báº£o hiá»ƒm cá»§a mÃ¬nh.",
+        "contexts":  [
+                         "Nghá»‰ tá»« 16-30 ngÃ y khÃ´ng lÆ°Æ¡ng cáº§n phÃª duyá»‡t cá»§a GiÃ¡m Ä‘á»‘c Ä‘iá»u hÃ nh (CEO). LÆ°u Ã½: nghá»‰ trÃªn 14 ngÃ y khÃ´ng lÆ°Æ¡ng, nhÃ¢n viÃªn pháº£i tá»± Ä‘Ã³ng pháº§n báº£o hiá»ƒm cá»§a mÃ¬nh."
+                     ],
+        "ground_truth":  "Nghá»‰ tá»« 16-30 ngÃ y khÃ´ng lÆ°Æ¡ng cáº§n phÃª duyá»‡t cá»§a GiÃ¡m Ä‘á»‘c Ä‘iá»u hÃ nh (CEO). LÆ°u Ã½: nghá»‰ trÃªn 14 ngÃ y khÃ´ng lÆ°Æ¡ng, nhÃ¢n viÃªn pháº£i tá»± Ä‘Ã³ng pháº§n báº£o hiá»ƒm cá»§a mÃ¬nh."
+    },
+    {
+        "id":  8,
+        "distribution":  "factual",
+        "question":  "NhÃ¢n viÃªn Ä‘Æ°á»£c nghá»‰ bao nhiÃªu ngÃ y khi cha hoáº·c máº¹ máº¥t?",
+        "answer":  "NhÃ¢n viÃªn Ä‘Æ°á»£c nghá»‰ 3 ngÃ y lÃ m viá»‡c cÃ³ lÆ°Æ¡ng khi cha máº¹ máº¥t (tang lá»…). KhÃ´ng trá»« vÃ o phÃ©p nÄƒm.",
+        "contexts":  [
+                         "NhÃ¢n viÃªn Ä‘Æ°á»£c nghá»‰ 3 ngÃ y lÃ m viá»‡c cÃ³ lÆ°Æ¡ng khi cha máº¹ máº¥t (tang lá»…). KhÃ´ng trá»« vÃ o phÃ©p nÄƒm."
+                     ],
+        "ground_truth":  "NhÃ¢n viÃªn Ä‘Æ°á»£c nghá»‰ 3 ngÃ y lÃ m viá»‡c cÃ³ lÆ°Æ¡ng khi cha máº¹ máº¥t (tang lá»…). KhÃ´ng trá»« vÃ o phÃ©p nÄƒm."
+    },
+    {
+        "id":  9,
+        "distribution":  "factual",
+        "question":  "Nam nhÃ¢n viÃªn Ä‘Æ°á»£c nghá»‰ bao nhiÃªu ngÃ y khi vá»£ sinh con?",
+        "answer":  "Nam nhÃ¢n viÃªn Ä‘Æ°á»£c nghá»‰ 5 ngÃ y lÃ m viá»‡c liÃªn tá»¥c khi vá»£ sinh con, khÃ´ng trá»« vÃ o phÃ©p nÄƒm.",
+        "contexts":  [
+                         "Nam nhÃ¢n viÃªn Ä‘Æ°á»£c nghá»‰ 5 ngÃ y lÃ m viá»‡c liÃªn tá»¥c khi vá»£ sinh con, khÃ´ng trá»« vÃ o phÃ©p nÄƒm."
+                     ],
+        "ground_truth":  "Nam nhÃ¢n viÃªn Ä‘Æ°á»£c nghá»‰ 5 ngÃ y lÃ m viá»‡c liÃªn tá»¥c khi vá»£ sinh con, khÃ´ng trá»« vÃ o phÃ©p nÄƒm."
+    },
+    {
+        "id":  10,
+        "distribution":  "factual",
+        "question":  "NhÃ¢n viÃªn chÃ­nh thá»©c Ä‘Æ°á»£c phÃ©p lÃ m viá»‡c tá»« xa tá»‘i Ä‘a bao nhiÃªu ngÃ y má»™t tuáº§n?",
+        "answer":  "NhÃ¢n viÃªn chÃ­nh thá»©c Ä‘Æ°á»£c phÃ©p lÃ m viá»‡c tá»« xa tá»‘i Ä‘a 2 ngÃ y/tuáº§n. Lá»‹ch WFH pháº£i Ä‘Æ°á»£c quáº£n lÃ½ trá»±c tiáº¿p phÃª duyá»‡t vÃ o thá»© Hai Ä‘áº§u tuáº§n.",
+        "contexts":  [
+                         "NhÃ¢n viÃªn chÃ­nh thá»©c Ä‘Æ°á»£c phÃ©p lÃ m viá»‡c tá»« xa tá»‘i Ä‘a 2 ngÃ y/tuáº§n. Lá»‹ch WFH pháº£i Ä‘Æ°á»£c quáº£n lÃ½ trá»±c tiáº¿p phÃª duyá»‡t vÃ o thá»© Hai Ä‘áº§u tuáº§n."
+                     ],
+        "ground_truth":  "NhÃ¢n viÃªn chÃ­nh thá»©c Ä‘Æ°á»£c phÃ©p lÃ m viá»‡c tá»« xa tá»‘i Ä‘a 2 ngÃ y/tuáº§n. Lá»‹ch WFH pháº£i Ä‘Æ°á»£c quáº£n lÃ½ trá»±c tiáº¿p phÃª duyá»‡t vÃ o thá»© Hai Ä‘áº§u tuáº§n."
+    },
+    {
+        "id":  11,
+        "distribution":  "factual",
+        "question":  "VPN cÃ³ báº¯t buá»™c khÃ´ng khi lÃ m viá»‡c tá»« xa (WFH)?",
+        "answer":  "CÃ³, káº¿t ná»‘i VPN WireGuard (AES-256) lÃ  Báº®T BUá»˜C khi lÃ m viá»‡c tá»« xa theo chÃ­nh sÃ¡ch WFH v2.0 vÃ  VPN v1.3.",
+        "contexts":  [
+                         "CÃ³, káº¿t ná»‘i VPN WireGuard (AES-256) lÃ  Báº®T BUá»˜C khi lÃ m viá»‡c tá»« xa theo chÃ­nh sÃ¡ch WFH v2.0 vÃ  VPN v1.3."
+                     ],
+        "ground_truth":  "CÃ³, káº¿t ná»‘i VPN WireGuard (AES-256) lÃ  Báº®T BUá»˜C khi lÃ m viá»‡c tá»« xa theo chÃ­nh sÃ¡ch WFH v2.0 vÃ  VPN v1.3."
+    },
+    {
+        "id":  12,
+        "distribution":  "factual",
+        "question":  "ThÆ°á»Ÿng Táº¿t tá»‘i thiá»ƒu cho nhÃ¢n viÃªn chÃ­nh thá»©c cÃ³ tá»« 6 thÃ¡ng trá»Ÿ lÃªn lÃ  bao nhiÃªu?",
+        "answer":  "NhÃ¢n viÃªn chÃ­nh thá»©c cÃ³ thá»i gian lÃ m viá»‡c tá»« 6 thÃ¡ng trá»Ÿ lÃªn Ä‘Æ°á»£c thÆ°á»Ÿng Táº¿t tá»‘i thiá»ƒu 1 thÃ¡ng lÆ°Æ¡ng. NhÃ¢n viÃªn dÆ°á»›i 6 thÃ¡ng Ä‘Æ°á»£c hÆ°á»Ÿng pro-rata theo sá»‘ thÃ¡ng lÃ m viá»‡c thá»±c táº¿.",
+        "contexts":  [
+                         "NhÃ¢n viÃªn chÃ­nh thá»©c cÃ³ thá»i gian lÃ m viá»‡c tá»« 6 thÃ¡ng trá»Ÿ lÃªn Ä‘Æ°á»£c thÆ°á»Ÿng Táº¿t tá»‘i thiá»ƒu 1 thÃ¡ng lÆ°Æ¡ng. NhÃ¢n viÃªn dÆ°á»›i 6 thÃ¡ng Ä‘Æ°á»£c hÆ°á»Ÿng pro-rata theo sá»‘ thÃ¡ng lÃ m viá»‡c thá»±c táº¿."
+                     ],
+        "ground_truth":  "NhÃ¢n viÃªn chÃ­nh thá»©c cÃ³ thá»i gian lÃ m viá»‡c tá»« 6 thÃ¡ng trá»Ÿ lÃªn Ä‘Æ°á»£c thÆ°á»Ÿng Táº¿t tá»‘i thiá»ƒu 1 thÃ¡ng lÆ°Æ¡ng. NhÃ¢n viÃªn dÆ°á»›i 6 thÃ¡ng Ä‘Æ°á»£c hÆ°á»Ÿng pro-rata theo sá»‘ thÃ¡ng lÃ m viá»‡c thá»±c táº¿."
+    },
+    {
+        "id":  13,
+        "distribution":  "factual",
+        "question":  "ÄÃ¡nh giÃ¡ hiá»‡u suáº¥t diá»…n ra máº¥y láº§n má»™t nÄƒm vÃ  vÃ o thÃ¡ng nÃ o?",
+        "answer":  "ÄÃ¡nh giÃ¡ hiá»‡u suáº¥t diá»…n ra 2 láº§n/nÄƒm: thÃ¡ng 6 (giá»¯a nÄƒm, dÃ¹ng Ä‘á»ƒ Ä‘iá»u chá»‰nh má»¥c tiÃªu) vÃ  thÃ¡ng 12 (cuá»‘i nÄƒm, dÃ¹ng Ä‘á»ƒ xÃ©t tÄƒng lÆ°Æ¡ng vÃ  thÆ°á»Ÿng).",
+        "contexts":  [
+                         "ÄÃ¡nh giÃ¡ hiá»‡u suáº¥t diá»…n ra 2 láº§n/nÄƒm: thÃ¡ng 6 (giá»¯a nÄƒm, dÃ¹ng Ä‘á»ƒ Ä‘iá»u chá»‰nh má»¥c tiÃªu) vÃ  thÃ¡ng 12 (cuá»‘i nÄƒm, dÃ¹ng Ä‘á»ƒ xÃ©t tÄƒng lÆ°Æ¡ng vÃ  thÆ°á»Ÿng)."
+                     ],
+        "ground_truth":  "ÄÃ¡nh giÃ¡ hiá»‡u suáº¥t diá»…n ra 2 láº§n/nÄƒm: thÃ¡ng 6 (giá»¯a nÄƒm, dÃ¹ng Ä‘á»ƒ Ä‘iá»u chá»‰nh má»¥c tiÃªu) vÃ  thÃ¡ng 12 (cuá»‘i nÄƒm, dÃ¹ng Ä‘á»ƒ xÃ©t tÄƒng lÆ°Æ¡ng vÃ  thÆ°á»Ÿng)."
+    },
+    {
+        "id":  14,
+        "distribution":  "factual",
+        "question":  "NhÃ¢n viÃªn nghá»‰ á»‘m cáº§n ná»™p giáº¥y tá» gÃ¬ vÃ  trong bao nhiÃªu ngÃ y lÃ m viá»‡c?",
+        "answer":  "Pháº£i ná»™p giáº¥y xÃ¡c nháº­n y táº¿ (giáº¥y khÃ¡m bá»‡nh hoáº·c giáº¥y ra viá»‡n) trong vÃ²ng 3 ngÃ y lÃ m viá»‡c ká»ƒ tá»« ngÃ y quay láº¡i. Náº¿u khÃ´ng cÃ³ giáº¥y tá» há»£p lá»‡, ngÃ y nghá»‰ bá»‹ trá»« vÃ o phÃ©p nÄƒm.",
+        "contexts":  [
+                         "Pháº£i ná»™p giáº¥y xÃ¡c nháº­n y táº¿ (giáº¥y khÃ¡m bá»‡nh hoáº·c giáº¥y ra viá»‡n) trong vÃ²ng 3 ngÃ y lÃ m viá»‡c ká»ƒ tá»« ngÃ y quay láº¡i. Náº¿u khÃ´ng cÃ³ giáº¥y tá» há»£p lá»‡, ngÃ y nghá»‰ bá»‹ trá»« vÃ o phÃ©p nÄƒm."
+                     ],
+        "ground_truth":  "Pháº£i ná»™p giáº¥y xÃ¡c nháº­n y táº¿ (giáº¥y khÃ¡m bá»‡nh hoáº·c giáº¥y ra viá»‡n) trong vÃ²ng 3 ngÃ y lÃ m viá»‡c ká»ƒ tá»« ngÃ y quay láº¡i. Náº¿u khÃ´ng cÃ³ giáº¥y tá» há»£p lá»‡, ngÃ y nghá»‰ bá»‹ trá»« vÃ o phÃ©p nÄƒm."
+    },
+    {
+        "id":  15,
+        "distribution":  "factual",
+        "question":  "Táº¡m á»©ng dÆ°á»›i 5 triá»‡u cáº§n ai phÃª duyá»‡t? Tá»« 5 triá»‡u trá»Ÿ lÃªn thÃ¬ sao?",
+        "answer":  "Táº¡m á»©ng dÆ°á»›i 5.000.000 VNÄ chá»‰ cáº§n TrÆ°á»Ÿng phÃ²ng phÃª duyá»‡t. Tá»« 5.000.000 VNÄ trá»Ÿ lÃªn cáº§n thÃªm phÃª duyá»‡t cá»§a Káº¿ toÃ¡n trÆ°á»Ÿng.",
+        "contexts":  [
+                         "Táº¡m á»©ng dÆ°á»›i 5.000.000 VNÄ chá»‰ cáº§n TrÆ°á»Ÿng phÃ²ng phÃª duyá»‡t. Tá»« 5.000.000 VNÄ trá»Ÿ lÃªn cáº§n thÃªm phÃª duyá»‡t cá»§a Káº¿ toÃ¡n trÆ°á»Ÿng."
+                     ],
+        "ground_truth":  "Táº¡m á»©ng dÆ°á»›i 5.000.000 VNÄ chá»‰ cáº§n TrÆ°á»Ÿng phÃ²ng phÃª duyá»‡t. Tá»« 5.000.000 VNÄ trá»Ÿ lÃªn cáº§n thÃªm phÃª duyá»‡t cá»§a Káº¿ toÃ¡n trÆ°á»Ÿng."
+    },
+    {
+        "id":  16,
+        "distribution":  "factual",
+        "question":  "TÃ i khoáº£n VPN bá»‹ khÃ³a tá»± Ä‘á»™ng sau bao nhiÃªu ngÃ y khÃ´ng hoáº¡t Ä‘á»™ng?",
+        "answer":  "TÃ i khoáº£n VPN tá»± Ä‘á»™ng bá»‹ khÃ³a sau 60 ngÃ y khÃ´ng hoáº¡t Ä‘á»™ng. Äá»ƒ kÃ­ch hoáº¡t láº¡i cáº§n gá»­i ticket IT kÃ¨m xÃ¡c nháº­n quáº£n lÃ½ trá»±c tiáº¿p, thá»i gian xá»­ lÃ½ 1-2 ngÃ y lÃ m viá»‡c.",
+        "contexts":  [
+                         "TÃ i khoáº£n VPN tá»± Ä‘á»™ng bá»‹ khÃ³a sau 60 ngÃ y khÃ´ng hoáº¡t Ä‘á»™ng. Äá»ƒ kÃ­ch hoáº¡t láº¡i cáº§n gá»­i ticket IT kÃ¨m xÃ¡c nháº­n quáº£n lÃ½ trá»±c tiáº¿p, thá»i gian xá»­ lÃ½ 1-2 ngÃ y lÃ m viá»‡c."
+                     ],
+        "ground_truth":  "TÃ i khoáº£n VPN tá»± Ä‘á»™ng bá»‹ khÃ³a sau 60 ngÃ y khÃ´ng hoáº¡t Ä‘á»™ng. Äá»ƒ kÃ­ch hoáº¡t láº¡i cáº§n gá»­i ticket IT kÃ¨m xÃ¡c nháº­n quáº£n lÃ½ trá»±c tiáº¿p, thá»i gian xá»­ lÃ½ 1-2 ngÃ y lÃ m viá»‡c."
+    },
+    {
+        "id":  17,
+        "distribution":  "factual",
+        "question":  "Phá»¥ cáº¥p Ä‘iá»‡n thoáº¡i dÃ nh cho nhá»¯ng cáº¥p báº­c nÃ o vÃ  má»©c bao nhiÃªu?",
+        "answer":  "Cáº¥p Manager trá»Ÿ lÃªn: 500.000 VNÄ/thÃ¡ng. Cáº¥p Lead: 300.000 VNÄ/thÃ¡ng. CÃ¡c cáº¥p báº­c khÃ¡c (Junior, Senior) khÃ´ng cÃ³ phá»¥ cáº¥p Ä‘iá»‡n thoáº¡i.",
+        "contexts":  [
+                         "Cáº¥p Manager trá»Ÿ lÃªn: 500.000 VNÄ/thÃ¡ng. Cáº¥p Lead: 300.000 VNÄ/thÃ¡ng. CÃ¡c cáº¥p báº­c khÃ¡c (Junior, Senior) khÃ´ng cÃ³ phá»¥ cáº¥p Ä‘iá»‡n thoáº¡i."
+                     ],
+        "ground_truth":  "Cáº¥p Manager trá»Ÿ lÃªn: 500.000 VNÄ/thÃ¡ng. Cáº¥p Lead: 300.000 VNÄ/thÃ¡ng. CÃ¡c cáº¥p báº­c khÃ¡c (Junior, Senior) khÃ´ng cÃ³ phá»¥ cáº¥p Ä‘iá»‡n thoáº¡i."
+    },
+    {
+        "id":  18,
+        "distribution":  "factual",
+        "question":  "CÆ¡ cáº¥u Ä‘iá»ƒm Ä‘Ã¡nh giÃ¡ hiá»‡u suáº¥t gá»“m nhá»¯ng thÃ nh pháº§n nÃ o vÃ  tá»· lá»‡ ra sao?",
+        "answer":  "KPI cÃ¡ nhÃ¢n chiáº¿m 70% tá»•ng Ä‘iá»ƒm (do quáº£n lÃ½ trá»±c tiáº¿p Ä‘Ã¡nh giÃ¡). Peer review chiáº¿m 30% (do 3-5 Ä‘á»“ng nghiá»‡p Ä‘Ã¡nh giÃ¡ vá» há»£p tÃ¡c, giao tiáº¿p vÃ  chuyÃªn mÃ´n).",
+        "contexts":  [
+                         "KPI cÃ¡ nhÃ¢n chiáº¿m 70% tá»•ng Ä‘iá»ƒm (do quáº£n lÃ½ trá»±c tiáº¿p Ä‘Ã¡nh giÃ¡). Peer review chiáº¿m 30% (do 3-5 Ä‘á»“ng nghiá»‡p Ä‘Ã¡nh giÃ¡ vá» há»£p tÃ¡c, giao tiáº¿p vÃ  chuyÃªn mÃ´n)."
+                     ],
+        "ground_truth":  "KPI cÃ¡ nhÃ¢n chiáº¿m 70% tá»•ng Ä‘iá»ƒm (do quáº£n lÃ½ trá»±c tiáº¿p Ä‘Ã¡nh giÃ¡). Peer review chiáº¿m 30% (do 3-5 Ä‘á»“ng nghiá»‡p Ä‘Ã¡nh giÃ¡ vá» há»£p tÃ¡c, giao tiáº¿p vÃ  chuyÃªn mÃ´n)."
+    },
+    {
+        "id":  19,
+        "distribution":  "factual",
+        "question":  "Thá»i gian thá»­ viá»‡c tiÃªu chuáº©n vÃ  tá»‘i Ä‘a (dÃ nh cho Manager trá»Ÿ lÃªn) lÃ  bao nhiÃªu ngÃ y?",
+        "answer":  "Thá»i gian thá»­ viá»‡c tiÃªu chuáº©n lÃ  60 ngÃ y. Äá»‘i vá»›i vá»‹ trÃ­ Manager trá»Ÿ lÃªn, cÃ³ thá»ƒ kÃ©o dÃ i Ä‘áº¿n 90 ngÃ y.",
+        "contexts":  [
+                         "Thá»i gian thá»­ viá»‡c tiÃªu chuáº©n lÃ  60 ngÃ y. Äá»‘i vá»›i vá»‹ trÃ­ Manager trá»Ÿ lÃªn, cÃ³ thá»ƒ kÃ©o dÃ i Ä‘áº¿n 90 ngÃ y."
+                     ],
+        "ground_truth":  "Thá»i gian thá»­ viá»‡c tiÃªu chuáº©n lÃ  60 ngÃ y. Äá»‘i vá»›i vá»‹ trÃ­ Manager trá»Ÿ lÃªn, cÃ³ thá»ƒ kÃ©o dÃ i Ä‘áº¿n 90 ngÃ y."
+    },
+    {
+        "id":  20,
+        "distribution":  "factual",
+        "question":  "Phá»¥ cáº¥p Ä‘i láº¡i tá»‘i Ä‘a má»—i thÃ¡ng lÃ  bao nhiÃªu vÃ  Ä‘iá»u kiá»‡n Ä‘á»ƒ Ä‘Æ°á»£c hÆ°á»Ÿng lÃ  gÃ¬?",
+        "answer":  "Tá»‘i Ä‘a 2.000.000 VNÄ/thÃ¡ng, dÃ nh cho nhÃ¢n viÃªn cÃ³ táº§n suáº¥t cÃ´ng tÃ¡c ngoÃ i vÄƒn phÃ²ng trÃªn 8 ngÃ y/thÃ¡ng. Pháº£i cÃ³ chá»©ng tá»« há»£p lá»‡ (vÃ© xe, hÃ³a Ä‘Æ¡n xÄƒng, Grab receipt).",
+        "contexts":  [
+                         "Tá»‘i Ä‘a 2.000.000 VNÄ/thÃ¡ng, dÃ nh cho nhÃ¢n viÃªn cÃ³ táº§n suáº¥t cÃ´ng tÃ¡c ngoÃ i vÄƒn phÃ²ng trÃªn 8 ngÃ y/thÃ¡ng. Pháº£i cÃ³ chá»©ng tá»« há»£p lá»‡ (vÃ© xe, hÃ³a Ä‘Æ¡n xÄƒng, Grab receipt)."
+                     ],
+        "ground_truth":  "Tá»‘i Ä‘a 2.000.000 VNÄ/thÃ¡ng, dÃ nh cho nhÃ¢n viÃªn cÃ³ táº§n suáº¥t cÃ´ng tÃ¡c ngoÃ i vÄƒn phÃ²ng trÃªn 8 ngÃ y/thÃ¡ng. Pháº£i cÃ³ chá»©ng tá»« há»£p lá»‡ (vÃ© xe, hÃ³a Ä‘Æ¡n xÄƒng, Grab receipt)."
+    },
+    {
+        "id":  21,
+        "distribution":  "multi_hop",
+        "question":  "Má»™t nhÃ¢n viÃªn Senior cÃ³ 9 nÄƒm thÃ¢m niÃªn Ä‘Æ°á»£c nghá»‰ bao nhiÃªu ngÃ y phÃ©p nÄƒm vÃ  lÆ°Æ¡ng trong khoáº£ng nÃ o?",
+        "answer":  "Theo chÃ­nh sÃ¡ch v2024: 15 ngÃ y cÆ¡ báº£n + 3 ngÃ y thÃ¢m niÃªn (9Ã·3=3) = 18 ngÃ y phÃ©p. LÆ°Æ¡ng Senior (P3-P4): 20-35 triá»‡u VNÄ/thÃ¡ng.",
+        "contexts":  [
+                         "Theo chÃ­nh sÃ¡ch v2024: 15 ngÃ y cÆ¡ báº£n + 3 ngÃ y thÃ¢m niÃªn (9Ã·3=3) = 18 ngÃ y phÃ©p. LÆ°Æ¡ng Senior (P3-P4): 20-35 triá»‡u VNÄ/thÃ¡ng."
+                     ],
+        "ground_truth":  "Theo chÃ­nh sÃ¡ch v2024: 15 ngÃ y cÆ¡ báº£n + 3 ngÃ y thÃ¢m niÃªn (9Ã·3=3) = 18 ngÃ y phÃ©p. LÆ°Æ¡ng Senior (P3-P4): 20-35 triá»‡u VNÄ/thÃ¡ng."
+    },
+    {
+        "id":  22,
+        "distribution":  "multi_hop",
+        "question":  "Náº¿u cáº§n mua má»™t chiáº¿c laptop 30 triá»‡u cho nhÃ¢n viÃªn má»›i, ai phÃª duyá»‡t vÃ  cáº§n gÃ¬ tá»« phÃ²ng CNTT?",
+        "answer":  "Laptop 30 triá»‡u náº±m trong khoáº£ng 5-50 triá»‡u nÃªn cáº§n GiÃ¡m Ä‘á»‘c phÃ²ng ban (Director) phÃª duyá»‡t. Cáº§n Ä‘Ã­nh kÃ¨m Ã­t nháº¥t 3 bÃ¡o giÃ¡ (trÃªn 10 triá»‡u). Mua sáº¯m thiáº¿t bá»‹ CNTT cáº§n xÃ¡c nháº­n cáº¥u hÃ¬nh ká»¹ thuáº­t tá»« phÃ²ng CNTT trÆ°á»›c khi Ä‘á» xuáº¥t.",
+        "contexts":  [
+                         "Laptop 30 triá»‡u náº±m trong khoáº£ng 5-50 triá»‡u nÃªn cáº§n GiÃ¡m Ä‘á»‘c phÃ²ng ban (Director) phÃª duyá»‡t. Cáº§n Ä‘Ã­nh kÃ¨m Ã­t nháº¥t 3 bÃ¡o giÃ¡ (trÃªn 10 triá»‡u). Mua sáº¯m thiáº¿t bá»‹ CNTT cáº§n xÃ¡c nháº­n cáº¥u hÃ¬nh ká»¹ thuáº­t tá»« phÃ²ng CNTT trÆ°á»›c khi Ä‘á» xuáº¥t."
+                     ],
+        "ground_truth":  "Laptop 30 triá»‡u náº±m trong khoáº£ng 5-50 triá»‡u nÃªn cáº§n GiÃ¡m Ä‘á»‘c phÃ²ng ban (Director) phÃª duyá»‡t. Cáº§n Ä‘Ã­nh kÃ¨m Ã­t nháº¥t 3 bÃ¡o giÃ¡ (trÃªn 10 triá»‡u). Mua sáº¯m thiáº¿t bá»‹ CNTT cáº§n xÃ¡c nháº­n cáº¥u hÃ¬nh ká»¹ thuáº­t tá»« phÃ²ng CNTT trÆ°á»›c khi Ä‘á» xuáº¥t."
+    },
+    {
+        "id":  23,
+        "distribution":  "multi_hop",
+        "question":  "NhÃ¢n viÃªn Ä‘Æ°á»£c tÃ i trá»£ khÃ³a há»c 25 triá»‡u, nghá»‰ viá»‡c sau 8 thÃ¡ng hoÃ n thÃ nh khÃ³a há»c. Pháº£i hoÃ n tráº£ bao nhiÃªu?",
+        "answer":  "NhÃ¢n viÃªn pháº£i cam káº¿t lÃ m viá»‡c Ã­t nháº¥t 1 nÄƒm sau khi hoÃ n thÃ nh khÃ³a há»c. Nghá»‰ sau 8 thÃ¡ng lÃ  trÆ°á»›c háº¡n cam káº¿t, pháº£i hoÃ n tráº£ 100% chi phÃ­ tá»©c 25.000.000 VNÄ.",
+        "contexts":  [
+                         "NhÃ¢n viÃªn pháº£i cam káº¿t lÃ m viá»‡c Ã­t nháº¥t 1 nÄƒm sau khi hoÃ n thÃ nh khÃ³a há»c. Nghá»‰ sau 8 thÃ¡ng lÃ  trÆ°á»›c háº¡n cam káº¿t, pháº£i hoÃ n tráº£ 100% chi phÃ­ tá»©c 25.000.000 VNÄ."
+                     ],
+        "ground_truth":  "NhÃ¢n viÃªn pháº£i cam káº¿t lÃ m viá»‡c Ã­t nháº¥t 1 nÄƒm sau khi hoÃ n thÃ nh khÃ³a há»c. Nghá»‰ sau 8 thÃ¡ng lÃ  trÆ°á»›c háº¡n cam káº¿t, pháº£i hoÃ n tráº£ 100% chi phÃ­ tá»©c 25.000.000 VNÄ."
+    },
+    {
+        "id":  24,
+        "distribution":  "multi_hop",
+        "question":  "NhÃ¢n viÃªn táº¡m á»©ng 15 triá»‡u, sau 20 ngÃ y má»›i thanh toÃ¡n. Bá»‹ pháº¡t bao nhiÃªu?",
+        "answer":  "Thá»i háº¡n thanh toÃ¡n lÃ  15 ngÃ y. QuÃ¡ háº¡n 5 ngÃ y: phÃ­ 2%/thÃ¡ng trÃªn 15.000.000 VNÄ, tÃ­nh pro-rata = 2% Ã— 15.000.000 Ã— (5/30) â‰ˆ 50.000 VNÄ.",
+        "contexts":  [
+                         "Thá»i háº¡n thanh toÃ¡n lÃ  15 ngÃ y. QuÃ¡ háº¡n 5 ngÃ y: phÃ­ 2%/thÃ¡ng trÃªn 15.000.000 VNÄ, tÃ­nh pro-rata = 2% Ã— 15.000.000 Ã— (5/30) â‰ˆ 50.000 VNÄ."
+                     ],
+        "ground_truth":  "Thá»i háº¡n thanh toÃ¡n lÃ  15 ngÃ y. QuÃ¡ háº¡n 5 ngÃ y: phÃ­ 2%/thÃ¡ng trÃªn 15.000.000 VNÄ, tÃ­nh pro-rata = 2% Ã— 15.000.000 Ã— (5/30) â‰ˆ 50.000 VNÄ."
+    },
+    {
+        "id":  25,
+        "distribution":  "multi_hop",
+        "question":  "LÆ°Æ¡ng thá»­ viá»‡c cá»§a nhÃ¢n viÃªn Junior má»©c cao nháº¥t lÃ  bao nhiÃªu?",
+        "answer":  "Junior cao nháº¥t lÃ  20.000.000 VNÄ/thÃ¡ng. LÆ°Æ¡ng thá»­ viá»‡c = 85% Ã— 20.000.000 = 17.000.000 VNÄ/thÃ¡ng.",
+        "contexts":  [
+                         "Junior cao nháº¥t lÃ  20.000.000 VNÄ/thÃ¡ng. LÆ°Æ¡ng thá»­ viá»‡c = 85% Ã— 20.000.000 = 17.000.000 VNÄ/thÃ¡ng."
+                     ],
+        "ground_truth":  "Junior cao nháº¥t lÃ  20.000.000 VNÄ/thÃ¡ng. LÆ°Æ¡ng thá»­ viá»‡c = 85% Ã— 20.000.000 = 17.000.000 VNÄ/thÃ¡ng."
+    },
+    {
+        "id":  26,
+        "distribution":  "multi_hop",
+        "question":  "NhÃ¢n viÃªn vá»«a káº¿t hÃ´n vÃ  cÃ¹ng tuáº§n Ä‘Ã³ cÃ³ con káº¿t hÃ´n. Tá»•ng sá»‘ ngÃ y nghá»‰ Ä‘áº·c biá»‡t cÃ³ lÆ°Æ¡ng lÃ  bao nhiÃªu?",
+        "answer":  "Káº¿t hÃ´n báº£n thÃ¢n: 3 ngÃ y. Con káº¿t hÃ´n: 1 ngÃ y. Tá»•ng: 4 ngÃ y lÃ m viá»‡c cÃ³ lÆ°Æ¡ng, táº¥t cáº£ khÃ´ng trá»« vÃ o phÃ©p nÄƒm.",
+        "contexts":  [
+                         "Káº¿t hÃ´n báº£n thÃ¢n: 3 ngÃ y. Con káº¿t hÃ´n: 1 ngÃ y. Tá»•ng: 4 ngÃ y lÃ m viá»‡c cÃ³ lÆ°Æ¡ng, táº¥t cáº£ khÃ´ng trá»« vÃ o phÃ©p nÄƒm."
+                     ],
+        "ground_truth":  "Káº¿t hÃ´n báº£n thÃ¢n: 3 ngÃ y. Con káº¿t hÃ´n: 1 ngÃ y. Tá»•ng: 4 ngÃ y lÃ m viá»‡c cÃ³ lÆ°Æ¡ng, táº¥t cáº£ khÃ´ng trá»« vÃ o phÃ©p nÄƒm."
+    },
+    {
+        "id":  27,
+        "distribution":  "multi_hop",
+        "question":  "NhÃ¢n viÃªn cÃ³ thÃ¢m niÃªn 7 nÄƒm theo v2024 Ä‘Æ°á»£c nghá»‰ bao nhiÃªu ngÃ y phÃ©p? Náº¿u bá»‹ trá»« thÃªm 4 ngÃ y á»‘m khÃ´ng cÃ³ giáº¥y y táº¿ thÃ¬ cÃ²n láº¡i bao nhiÃªu?",
+        "answer":  "PhÃ©p nÄƒm v2024: 15 ngÃ y cÆ¡ báº£n + 2 ngÃ y thÃ¢m niÃªn (7Ã·3=2) = 17 ngÃ y. Sau khi bá»‹ trá»« 4 ngÃ y á»‘m khÃ´ng giáº¥y y táº¿: 17 - 4 = 13 ngÃ y phÃ©p cÃ²n láº¡i.",
+        "contexts":  [
+                         "PhÃ©p nÄƒm v2024: 15 ngÃ y cÆ¡ báº£n + 2 ngÃ y thÃ¢m niÃªn (7Ã·3=2) = 17 ngÃ y. Sau khi bá»‹ trá»« 4 ngÃ y á»‘m khÃ´ng giáº¥y y táº¿: 17 - 4 = 13 ngÃ y phÃ©p cÃ²n láº¡i."
+                     ],
+        "ground_truth":  "PhÃ©p nÄƒm v2024: 15 ngÃ y cÆ¡ báº£n + 2 ngÃ y thÃ¢m niÃªn (7Ã·3=2) = 17 ngÃ y. Sau khi bá»‹ trá»« 4 ngÃ y á»‘m khÃ´ng giáº¥y y táº¿: 17 - 4 = 13 ngÃ y phÃ©p cÃ²n láº¡i."
+    },
+    {
+        "id":  28,
+        "distribution":  "multi_hop",
+        "question":  "NhÃ¢n viÃªn cáº¥p Lead nháº­n tá»•ng phá»¥ cáº¥p hÃ ng thÃ¡ng (Äƒn trÆ°a + Ä‘iá»‡n thoáº¡i) lÃ  bao nhiÃªu?",
+        "answer":  "Phá»¥ cáº¥p Äƒn trÆ°a: 1.000.000 VNÄ. Phá»¥ cáº¥p Ä‘iá»‡n thoáº¡i cáº¥p Lead: 300.000 VNÄ. Tá»•ng: 1.300.000 VNÄ/thÃ¡ng.",
+        "contexts":  [
+                         "Phá»¥ cáº¥p Äƒn trÆ°a: 1.000.000 VNÄ. Phá»¥ cáº¥p Ä‘iá»‡n thoáº¡i cáº¥p Lead: 300.000 VNÄ. Tá»•ng: 1.300.000 VNÄ/thÃ¡ng."
+                     ],
+        "ground_truth":  "Phá»¥ cáº¥p Äƒn trÆ°a: 1.000.000 VNÄ. Phá»¥ cáº¥p Ä‘iá»‡n thoáº¡i cáº¥p Lead: 300.000 VNÄ. Tá»•ng: 1.300.000 VNÄ/thÃ¡ng."
+    },
+    {
+        "id":  29,
+        "distribution":  "multi_hop",
+        "question":  "NhÃ¢n viÃªn táº¡m á»©ng 8 triá»‡u, chÆ°a thanh toÃ¡n sau 30 ngÃ y (quÃ¡ háº¡n 15 ngÃ y). Ai phÃª duyá»‡t khoáº£n nÃ y vÃ  phÃ­ pháº¡t lÃ  bao nhiÃªu?",
+        "answer":  "PhÃª duyá»‡t: 8 triá»‡u (â‰¥5 triá»‡u) cáº§n TrÆ°á»Ÿng phÃ²ng + Káº¿ toÃ¡n trÆ°á»Ÿng. PhÃ­ pháº¡t quÃ¡ háº¡n 15 ngÃ y: 2%/thÃ¡ng Ã— 8.000.000 Ã— (15/30) = 80.000 VNÄ. KhÃ´ng Ä‘Æ°á»£c táº¡m á»©ng má»›i cho Ä‘áº¿n khi hoÃ n á»©ng.",
+        "contexts":  [
+                         "PhÃª duyá»‡t: 8 triá»‡u (â‰¥5 triá»‡u) cáº§n TrÆ°á»Ÿng phÃ²ng + Káº¿ toÃ¡n trÆ°á»Ÿng. PhÃ­ pháº¡t quÃ¡ háº¡n 15 ngÃ y: 2%/thÃ¡ng Ã— 8.000.000 Ã— (15/30) = 80.000 VNÄ. KhÃ´ng Ä‘Æ°á»£c táº¡m á»©ng má»›i cho Ä‘áº¿n khi hoÃ n á»©ng."
+                     ],
+        "ground_truth":  "PhÃª duyá»‡t: 8 triá»‡u (â‰¥5 triá»‡u) cáº§n TrÆ°á»Ÿng phÃ²ng + Káº¿ toÃ¡n trÆ°á»Ÿng. PhÃ­ pháº¡t quÃ¡ háº¡n 15 ngÃ y: 2%/thÃ¡ng Ã— 8.000.000 Ã— (15/30) = 80.000 VNÄ. KhÃ´ng Ä‘Æ°á»£c táº¡m á»©ng má»›i cho Ä‘áº¿n khi hoÃ n á»©ng."
+    },
+    {
+        "id":  30,
+        "distribution":  "multi_hop",
+        "question":  "So sÃ¡nh quyá»n lá»£i báº£o hiá»ƒm giá»¯a nhÃ¢n viÃªn thá»­ viá»‡c vÃ  nhÃ¢n viÃªn chÃ­nh thá»©c.",
+        "answer":  "NhÃ¢n viÃªn thá»­ viá»‡c: chá»‰ Ä‘Æ°á»£c tham gia BHXH báº¯t buá»™c, KHÃ”NG Ä‘Æ°á»£c hÆ°á»Ÿng gÃ³i báº£o hiá»ƒm sá»©c khá»e PVI. NhÃ¢n viÃªn chÃ­nh thá»©c: Ä‘Æ°á»£c hÆ°á»Ÿng BHXH + gÃ³i PVI háº¡n má»©c 200 triá»‡u/nÄƒm (ná»™i trÃº, ngoáº¡i trÃº, nha khoa).",
+        "contexts":  [
+                         "NhÃ¢n viÃªn thá»­ viá»‡c: chá»‰ Ä‘Æ°á»£c tham gia BHXH báº¯t buá»™c, KHÃ”NG Ä‘Æ°á»£c hÆ°á»Ÿng gÃ³i báº£o hiá»ƒm sá»©c khá»e PVI. NhÃ¢n viÃªn chÃ­nh thá»©c: Ä‘Æ°á»£c hÆ°á»Ÿng BHXH + gÃ³i PVI háº¡n má»©c 200 triá»‡u/nÄƒm (ná»™i trÃº, ngoáº¡i trÃº, nha khoa)."
+                     ],
+        "ground_truth":  "NhÃ¢n viÃªn thá»­ viá»‡c: chá»‰ Ä‘Æ°á»£c tham gia BHXH báº¯t buá»™c, KHÃ”NG Ä‘Æ°á»£c hÆ°á»Ÿng gÃ³i báº£o hiá»ƒm sá»©c khá»e PVI. NhÃ¢n viÃªn chÃ­nh thá»©c: Ä‘Æ°á»£c hÆ°á»Ÿng BHXH + gÃ³i PVI háº¡n má»©c 200 triá»‡u/nÄƒm (ná»™i trÃº, ngoáº¡i trÃº, nha khoa)."
+    },
+    {
+        "id":  31,
+        "distribution":  "multi_hop",
+        "question":  "NhÃ¢n viÃªn Ä‘i cÃ´ng tÃ¡c trong nÆ°á»›c 2 ngÃ y, á»Ÿ khÃ¡ch sáº¡n giÃ¡ 1.500.000 VNÄ/Ä‘Ãªm. CÃ´ng ty thanh toÃ¡n tá»‘i Ä‘a bao nhiÃªu cho tiá»n khÃ¡ch sáº¡n?",
+        "answer":  "Má»©c tá»‘i Ä‘a thanh toÃ¡n khÃ¡ch sáº¡n trong nÆ°á»›c lÃ  1.200.000 VNÄ/Ä‘Ãªm. Cho 2 Ä‘Ãªm: tá»‘i Ä‘a 2 Ã— 1.200.000 = 2.400.000 VNÄ. Pháº§n vÆ°á»£t (300.000 VNÄ/Ä‘Ãªm) nhÃ¢n viÃªn tá»± chi tráº£.",
+        "contexts":  [
+                         "Má»©c tá»‘i Ä‘a thanh toÃ¡n khÃ¡ch sáº¡n trong nÆ°á»›c lÃ  1.200.000 VNÄ/Ä‘Ãªm. Cho 2 Ä‘Ãªm: tá»‘i Ä‘a 2 Ã— 1.200.000 = 2.400.000 VNÄ. Pháº§n vÆ°á»£t (300.000 VNÄ/Ä‘Ãªm) nhÃ¢n viÃªn tá»± chi tráº£."
+                     ],
+        "ground_truth":  "Má»©c tá»‘i Ä‘a thanh toÃ¡n khÃ¡ch sáº¡n trong nÆ°á»›c lÃ  1.200.000 VNÄ/Ä‘Ãªm. Cho 2 Ä‘Ãªm: tá»‘i Ä‘a 2 Ã— 1.200.000 = 2.400.000 VNÄ. Pháº§n vÆ°á»£t (300.000 VNÄ/Ä‘Ãªm) nhÃ¢n viÃªn tá»± chi tráº£."
+    },
+    {
+        "id":  32,
+        "distribution":  "multi_hop",
+        "question":  "NhÃ¢n viÃªn má»›i Ä‘ang trong thÃ¡ng thá»© 3 thá»­ viá»‡c cÃ³ Báº®T BUá»˜C tham dá»± buá»•i Ä‘Ã o táº¡o ná»™i bá»™ cá»§a phÃ²ng ban khÃ´ng? Táº¡i sao?",
+        "answer":  "CÃ³, Báº®T BUá»˜C. Theo chÃ­nh sÃ¡ch Ä‘Ã o táº¡o ná»™i bá»™, nhÃ¢n viÃªn má»›i trong 6 thÃ¡ng Ä‘áº§u pháº£i tham gia táº¥t cáº£ cÃ¡c buá»•i Ä‘Ã o táº¡o cá»§a phÃ²ng ban. NhÃ¢n viÃªn thÃ¡ng thá»© 3 (Ä‘ang thá»­ viá»‡c) váº«n náº±m trong pháº¡m vi 6 thÃ¡ng Ä‘áº§u.",
+        "contexts":  [
+                         "CÃ³, Báº®T BUá»˜C. Theo chÃ­nh sÃ¡ch Ä‘Ã o táº¡o ná»™i bá»™, nhÃ¢n viÃªn má»›i trong 6 thÃ¡ng Ä‘áº§u pháº£i tham gia táº¥t cáº£ cÃ¡c buá»•i Ä‘Ã o táº¡o cá»§a phÃ²ng ban. NhÃ¢n viÃªn thÃ¡ng thá»© 3 (Ä‘ang thá»­ viá»‡c) váº«n náº±m trong pháº¡m vi 6 thÃ¡ng Ä‘áº§u."
+                     ],
+        "ground_truth":  "CÃ³, Báº®T BUá»˜C. Theo chÃ­nh sÃ¡ch Ä‘Ã o táº¡o ná»™i bá»™, nhÃ¢n viÃªn má»›i trong 6 thÃ¡ng Ä‘áº§u pháº£i tham gia táº¥t cáº£ cÃ¡c buá»•i Ä‘Ã o táº¡o cá»§a phÃ²ng ban. NhÃ¢n viÃªn thÃ¡ng thá»© 3 (Ä‘ang thá»­ viá»‡c) váº«n náº±m trong pháº¡m vi 6 thÃ¡ng Ä‘áº§u."
+    },
+    {
+        "id":  33,
+        "distribution":  "multi_hop",
+        "question":  "NhÃ¢n viÃªn Manager cÃ³ thÃ¢m niÃªn 12 nÄƒm: tá»•ng phá»¥ cáº¥p hÃ ng thÃ¡ng vÃ  sá»‘ ngÃ y phÃ©p nÄƒm theo v2024 lÃ  bao nhiÃªu?",
+        "answer":  "Phá»¥ cáº¥p thÃ¡ng: Äƒn trÆ°a 1.000.000 + Ä‘iá»‡n thoáº¡i Manager 500.000 = 1.500.000 VNÄ. PhÃ©p nÄƒm v2024: 15 ngÃ y cÆ¡ báº£n + 4 ngÃ y thÃ¢m niÃªn (12Ã·3=4) = 19 ngÃ y phÃ©p.",
+        "contexts":  [
+                         "Phá»¥ cáº¥p thÃ¡ng: Äƒn trÆ°a 1.000.000 + Ä‘iá»‡n thoáº¡i Manager 500.000 = 1.500.000 VNÄ. PhÃ©p nÄƒm v2024: 15 ngÃ y cÆ¡ báº£n + 4 ngÃ y thÃ¢m niÃªn (12Ã·3=4) = 19 ngÃ y phÃ©p."
+                     ],
+        "ground_truth":  "Phá»¥ cáº¥p thÃ¡ng: Äƒn trÆ°a 1.000.000 + Ä‘iá»‡n thoáº¡i Manager 500.000 = 1.500.000 VNÄ. PhÃ©p nÄƒm v2024: 15 ngÃ y cÆ¡ báº£n + 4 ngÃ y thÃ¢m niÃªn (12Ã·3=4) = 19 ngÃ y phÃ©p."
+    },
+    {
+        "id":  34,
+        "distribution":  "multi_hop",
+        "question":  "NhÃ¢n viÃªn táº¡m á»©ng 4 triá»‡u vÃ  má»™t nhÃ¢n viÃªn khÃ¡c táº¡m á»©ng 7 triá»‡u: quy trÃ¬nh phÃª duyá»‡t khÃ¡c nhau tháº¿ nÃ o?",
+        "answer":  "4 triá»‡u (dÆ°á»›i 5 triá»‡u): chá»‰ cáº§n TrÆ°á»Ÿng phÃ²ng phÃª duyá»‡t. 7 triá»‡u (tá»« 5 triá»‡u trá»Ÿ lÃªn): cáº§n cáº£ TrÆ°á»Ÿng phÃ²ng VÃ€ Káº¿ toÃ¡n trÆ°á»Ÿng phÃª duyá»‡t. Cáº£ hai Ä‘á»u cÃ³ thá»i háº¡n hoÃ n á»©ng 15 ngÃ y.",
+        "contexts":  [
+                         "4 triá»‡u (dÆ°á»›i 5 triá»‡u): chá»‰ cáº§n TrÆ°á»Ÿng phÃ²ng phÃª duyá»‡t. 7 triá»‡u (tá»« 5 triá»‡u trá»Ÿ lÃªn): cáº§n cáº£ TrÆ°á»Ÿng phÃ²ng VÃ€ Káº¿ toÃ¡n trÆ°á»Ÿng phÃª duyá»‡t. Cáº£ hai Ä‘á»u cÃ³ thá»i háº¡n hoÃ n á»©ng 15 ngÃ y."
+                     ],
+        "ground_truth":  "4 triá»‡u (dÆ°á»›i 5 triá»‡u): chá»‰ cáº§n TrÆ°á»Ÿng phÃ²ng phÃª duyá»‡t. 7 triá»‡u (tá»« 5 triá»‡u trá»Ÿ lÃªn): cáº§n cáº£ TrÆ°á»Ÿng phÃ²ng VÃ€ Káº¿ toÃ¡n trÆ°á»Ÿng phÃª duyá»‡t. Cáº£ hai Ä‘á»u cÃ³ thá»i háº¡n hoÃ n á»©ng 15 ngÃ y."
+    },
+    {
+        "id":  35,
+        "distribution":  "multi_hop",
+        "question":  "NhÃ¢n viÃªn Junior P1 cÃ³ lÆ°Æ¡ng cÆ¡ báº£n 12 triá»‡u vá»«a vÃ o thá»­ viá»‡c: nháº­n lÆ°Æ¡ng bao nhiÃªu vÃ  phá»¥ cáº¥p gÃ¬ thÃ¡ng Ä‘áº§u tiÃªn?",
+        "answer":  "LÆ°Æ¡ng thá»­ viá»‡c: 85% Ã— 12.000.000 = 10.200.000 VNÄ. Phá»¥ cáº¥p Äƒn trÆ°a Ã¡p dá»¥ng tá»« ngÃ y Ä‘áº§u tiÃªn: 1.000.000 VNÄ. KhÃ´ng cÃ³ phá»¥ cáº¥p Ä‘iá»‡n thoáº¡i (cáº¥p Junior). Tá»•ng nháº­n: 11.200.000 VNÄ.",
+        "contexts":  [
+                         "LÆ°Æ¡ng thá»­ viá»‡c: 85% Ã— 12.000.000 = 10.200.000 VNÄ. Phá»¥ cáº¥p Äƒn trÆ°a Ã¡p dá»¥ng tá»« ngÃ y Ä‘áº§u tiÃªn: 1.000.000 VNÄ. KhÃ´ng cÃ³ phá»¥ cáº¥p Ä‘iá»‡n thoáº¡i (cáº¥p Junior). Tá»•ng nháº­n: 11.200.000 VNÄ."
+                     ],
+        "ground_truth":  "LÆ°Æ¡ng thá»­ viá»‡c: 85% Ã— 12.000.000 = 10.200.000 VNÄ. Phá»¥ cáº¥p Äƒn trÆ°a Ã¡p dá»¥ng tá»« ngÃ y Ä‘áº§u tiÃªn: 1.000.000 VNÄ. KhÃ´ng cÃ³ phá»¥ cáº¥p Ä‘iá»‡n thoáº¡i (cáº¥p Junior). Tá»•ng nháº­n: 11.200.000 VNÄ."
+    },
+    {
+        "id":  36,
+        "distribution":  "multi_hop",
+        "question":  "Káº¿t quáº£ Ä‘Ã¡nh giÃ¡ hiá»‡u suáº¥t thÃ¡ng 6 vÃ  thÃ¡ng 12 Ä‘Æ°á»£c dÃ¹ng Ä‘á»ƒ lÃ m gÃ¬ khÃ¡c nhau?",
+        "answer":  "ThÃ¡ng 6 (giá»¯a nÄƒm): dÃ¹ng Ä‘á»ƒ Ä‘iá»u chá»‰nh má»¥c tiÃªu cho ná»­a nÄƒm cÃ²n láº¡i. ThÃ¡ng 12 (cuá»‘i nÄƒm): dÃ¹ng Ä‘á»ƒ xÃ©t tÄƒng lÆ°Æ¡ng vÃ  tÃ­nh thÆ°á»Ÿng Táº¿t. Cáº£ hai Ä‘á»u dá»±a trÃªn KPI 70% + Peer review 30%.",
+        "contexts":  [
+                         "ThÃ¡ng 6 (giá»¯a nÄƒm): dÃ¹ng Ä‘á»ƒ Ä‘iá»u chá»‰nh má»¥c tiÃªu cho ná»­a nÄƒm cÃ²n láº¡i. ThÃ¡ng 12 (cuá»‘i nÄƒm): dÃ¹ng Ä‘á»ƒ xÃ©t tÄƒng lÆ°Æ¡ng vÃ  tÃ­nh thÆ°á»Ÿng Táº¿t. Cáº£ hai Ä‘á»u dá»±a trÃªn KPI 70% + Peer review 30%."
+                     ],
+        "ground_truth":  "ThÃ¡ng 6 (giá»¯a nÄƒm): dÃ¹ng Ä‘á»ƒ Ä‘iá»u chá»‰nh má»¥c tiÃªu cho ná»­a nÄƒm cÃ²n láº¡i. ThÃ¡ng 12 (cuá»‘i nÄƒm): dÃ¹ng Ä‘á»ƒ xÃ©t tÄƒng lÆ°Æ¡ng vÃ  tÃ­nh thÆ°á»Ÿng Táº¿t. Cáº£ hai Ä‘á»u dá»±a trÃªn KPI 70% + Peer review 30%."
+    },
+    {
+        "id":  37,
+        "distribution":  "multi_hop",
+        "question":  "NhÃ¢n viÃªn tá»± Ã½ xÃ³a malware khá»i mÃ¡y vÃ  chia sáº» thÃ´ng tin sá»± cá»‘ nÃ y trÃªn Slack ná»™i bá»™. Vi pháº¡m nhá»¯ng chÃ­nh sÃ¡ch nÃ o cá»¥ thá»ƒ?",
+        "answer":  "Vi pháº¡m 2 chÃ­nh sÃ¡ch: (1) Quy trÃ¬nh xá»­ lÃ½ sá»± cá»‘ báº£o máº­t: tuyá»‡t Ä‘á»‘i khÃ´ng tá»± xá»­ lÃ½, pháº£i bÃ¡o cÃ¡o trong 1 giá» qua helpdesk@cty.vn â€” vi pháº¡m nÃ y cÃ³ thá»ƒ bá»‹ ká»· luáº­t Ä‘áº¿n sa tháº£i. (2) ChÃ­nh sÃ¡ch phÃ¢n loáº¡i dá»¯ liá»‡u: thÃ´ng tin sá»± cá»‘ báº£o máº­t thuá»™c BÃ­ máº­t/Tá»‘i máº­t, chá»‰ Ä‘Æ°á»£c chia sáº» theo need-to-know, khÃ´ng chia sáº» rá»™ng rÃ£i.",
+        "contexts":  [
+                         "Vi pháº¡m 2 chÃ­nh sÃ¡ch: (1) Quy trÃ¬nh xá»­ lÃ½ sá»± cá»‘ báº£o máº­t: tuyá»‡t Ä‘á»‘i khÃ´ng tá»± xá»­ lÃ½, pháº£i bÃ¡o cÃ¡o trong 1 giá» qua helpdesk@cty.vn â€” vi pháº¡m nÃ y cÃ³ thá»ƒ bá»‹ ká»· luáº­t Ä‘áº¿n sa tháº£i. (2) ChÃ­nh sÃ¡ch phÃ¢n loáº¡i dá»¯ liá»‡u: thÃ´ng tin sá»± cá»‘ báº£o máº­t thuá»™c BÃ­ máº­t/Tá»‘i máº­t, chá»‰ Ä‘Æ°á»£c chia sáº» theo need-to-know, khÃ´ng chia sáº» rá»™ng rÃ£i."
+                     ],
+        "ground_truth":  "Vi pháº¡m 2 chÃ­nh sÃ¡ch: (1) Quy trÃ¬nh xá»­ lÃ½ sá»± cá»‘ báº£o máº­t: tuyá»‡t Ä‘á»‘i khÃ´ng tá»± xá»­ lÃ½, pháº£i bÃ¡o cÃ¡o trong 1 giá» qua helpdesk@cty.vn â€” vi pháº¡m nÃ y cÃ³ thá»ƒ bá»‹ ká»· luáº­t Ä‘áº¿n sa tháº£i. (2) ChÃ­nh sÃ¡ch phÃ¢n loáº¡i dá»¯ liá»‡u: thÃ´ng tin sá»± cá»‘ báº£o máº­t thuá»™c BÃ­ máº­t/Tá»‘i máº­t, chá»‰ Ä‘Æ°á»£c chia sáº» theo need-to-know, khÃ´ng chia sáº» rá»™ng rÃ£i."
+    },
+    {
+        "id":  38,
+        "distribution":  "multi_hop",
+        "question":  "NhÃ¢n viÃªn Ä‘i cÃ´ng tÃ¡c nÆ°á»›c ngoÃ i 4 ngÃ y táº¡i thÃ nh phá»‘ lá»›n, á»Ÿ khÃ¡ch sáº¡n 200 USD/Ä‘Ãªm (3 Ä‘Ãªm). CÃ´ng ty thanh toÃ¡n bao nhiÃªu tiá»n khÃ¡ch sáº¡n?",
+        "answer":  "Táº¡i thÃ nh phá»‘ lá»›n nÆ°á»›c ngoÃ i, má»©c tá»‘i Ä‘a thanh toÃ¡n khÃ¡ch sáº¡n lÃ  200 USD/Ä‘Ãªm. KhÃ¡ch sáº¡n 200 USD/Ä‘Ãªm = Ä‘Ãºng má»©c tá»‘i Ä‘a. 3 Ä‘Ãªm Ã— 200 USD = 600 USD Ä‘Æ°á»£c thanh toÃ¡n Ä‘áº§y Ä‘á»§.",
+        "contexts":  [
+                         "Táº¡i thÃ nh phá»‘ lá»›n nÆ°á»›c ngoÃ i, má»©c tá»‘i Ä‘a thanh toÃ¡n khÃ¡ch sáº¡n lÃ  200 USD/Ä‘Ãªm. KhÃ¡ch sáº¡n 200 USD/Ä‘Ãªm = Ä‘Ãºng má»©c tá»‘i Ä‘a. 3 Ä‘Ãªm Ã— 200 USD = 600 USD Ä‘Æ°á»£c thanh toÃ¡n Ä‘áº§y Ä‘á»§."
+                     ],
+        "ground_truth":  "Táº¡i thÃ nh phá»‘ lá»›n nÆ°á»›c ngoÃ i, má»©c tá»‘i Ä‘a thanh toÃ¡n khÃ¡ch sáº¡n lÃ  200 USD/Ä‘Ãªm. KhÃ¡ch sáº¡n 200 USD/Ä‘Ãªm = Ä‘Ãºng má»©c tá»‘i Ä‘a. 3 Ä‘Ãªm Ã— 200 USD = 600 USD Ä‘Æ°á»£c thanh toÃ¡n Ä‘áº§y Ä‘á»§."
+    },
+    {
+        "id":  39,
+        "distribution":  "multi_hop",
+        "question":  "So sÃ¡nh yÃªu cáº§u máº­t kháº©u giá»¯a policy v1.0 vÃ  v2.0 vá» Ä‘á»™ dÃ i tá»‘i thiá»ƒu, thá»i háº¡n Ä‘á»•i vÃ  MFA.",
+        "answer":  "v1.0 (Ä‘Ã£ háº¿t hiá»‡u lá»±c): tá»‘i thiá»ƒu 8 kÃ½ tá»±, Ä‘á»•i má»—i 90 ngÃ y, khÃ´ng yÃªu cáº§u MFA. v2.0 (hiá»‡n hÃ nh): tá»‘i thiá»ƒu 12 kÃ½ tá»±, Ä‘á»•i má»—i 120 ngÃ y, MFA báº¯t buá»™c cho táº¥t cáº£: email, VPN vÃ  há»‡ thá»‘ng ná»™i bá»™.",
+        "contexts":  [
+                         "v1.0 (Ä‘Ã£ háº¿t hiá»‡u lá»±c): tá»‘i thiá»ƒu 8 kÃ½ tá»±, Ä‘á»•i má»—i 90 ngÃ y, khÃ´ng yÃªu cáº§u MFA. v2.0 (hiá»‡n hÃ nh): tá»‘i thiá»ƒu 12 kÃ½ tá»±, Ä‘á»•i má»—i 120 ngÃ y, MFA báº¯t buá»™c cho táº¥t cáº£: email, VPN vÃ  há»‡ thá»‘ng ná»™i bá»™."
+                     ],
+        "ground_truth":  "v1.0 (Ä‘Ã£ háº¿t hiá»‡u lá»±c): tá»‘i thiá»ƒu 8 kÃ½ tá»±, Ä‘á»•i má»—i 90 ngÃ y, khÃ´ng yÃªu cáº§u MFA. v2.0 (hiá»‡n hÃ nh): tá»‘i thiá»ƒu 12 kÃ½ tá»±, Ä‘á»•i má»—i 120 ngÃ y, MFA báº¯t buá»™c cho táº¥t cáº£: email, VPN vÃ  há»‡ thá»‘ng ná»™i bá»™."
+    },
+    {
+        "id":  40,
+        "distribution":  "multi_hop",
+        "question":  "NhÃ¢n viÃªn thá»­ viá»‡c thÃ¡ng thá»© 3 phÃ¡t hiá»‡n vi pháº¡m báº£o máº­t. Há» nÃªn vÃ  khÃ´ng nÃªn lÃ m gÃ¬ theo chÃ­nh sÃ¡ch?",
+        "answer":  "NÃŠN: bÃ¡o cÃ¡o ngay trong vÃ²ng 1 giá» qua helpdesk@cty.vn hoáº·c hotline CNTT (ext. 9999). KHÃ”NG Ä‘Æ°á»£c: tá»± xá»­ lÃ½ malware, xÃ³a dáº¥u váº¿t, hoáº·c chia sáº» thÃ´ng tin sá»± cá»‘ rá»™ng rÃ£i. KhÃ´ng bÃ¡o cÃ¡o hoáº·c tá»± xá»­ lÃ½ = vi pháº¡m nghiÃªm trá»ng, cÃ³ thá»ƒ bá»‹ ká»· luáº­t.",
+        "contexts":  [
+                         "NÃŠN: bÃ¡o cÃ¡o ngay trong vÃ²ng 1 giá» qua helpdesk@cty.vn hoáº·c hotline CNTT (ext. 9999). KHÃ”NG Ä‘Æ°á»£c: tá»± xá»­ lÃ½ malware, xÃ³a dáº¥u váº¿t, hoáº·c chia sáº» thÃ´ng tin sá»± cá»‘ rá»™ng rÃ£i. KhÃ´ng bÃ¡o cÃ¡o hoáº·c tá»± xá»­ lÃ½ = vi pháº¡m nghiÃªm trá»ng, cÃ³ thá»ƒ bá»‹ ká»· luáº­t."
+                     ],
+        "ground_truth":  "NÃŠN: bÃ¡o cÃ¡o ngay trong vÃ²ng 1 giá» qua helpdesk@cty.vn hoáº·c hotline CNTT (ext. 9999). KHÃ”NG Ä‘Æ°á»£c: tá»± xá»­ lÃ½ malware, xÃ³a dáº¥u váº¿t, hoáº·c chia sáº» thÃ´ng tin sá»± cá»‘ rá»™ng rÃ£i. KhÃ´ng bÃ¡o cÃ¡o hoáº·c tá»± xá»­ lÃ½ = vi pháº¡m nghiÃªm trá»ng, cÃ³ thá»ƒ bá»‹ ká»· luáº­t."
+    },
+    {
+        "id":  41,
+        "distribution":  "adversarial",
+        "question":  "NhÃ¢n viÃªn Ä‘Æ°á»£c nghá»‰ bao nhiÃªu ngÃ y phÃ©p nÄƒm?",
+        "answer":  "Theo chÃ­nh sÃ¡ch v2024 HIá»†N HÃ€NH: 15 ngÃ y cÆ¡ báº£n (+1 ngÃ y/3 nÄƒm thÃ¢m niÃªn). ChÃ­nh sÃ¡ch v2023 (Ä‘Ã£ bá»‹ thay tháº¿) lÃ  12 ngÃ y. RAG cÃ³ thá»ƒ retrieve cáº£ 2 tÃ i liá»‡u â€” cÃ¢u tráº£ lá»i Ä‘Ãºng pháº£i Æ°u tiÃªn v2024.",
+        "contexts":  [
+                         "Theo chÃ­nh sÃ¡ch v2024 HIá»†N HÃ€NH: 15 ngÃ y cÆ¡ báº£n (+1 ngÃ y/3 nÄƒm thÃ¢m niÃªn). ChÃ­nh sÃ¡ch v2023 (Ä‘Ã£ bá»‹ thay tháº¿) lÃ  12 ngÃ y. RAG cÃ³ thá»ƒ retrieve cáº£ 2 tÃ i liá»‡u â€” cÃ¢u tráº£ lá»i Ä‘Ãºng pháº£i Æ°u tiÃªn v2024."
+                     ],
+        "ground_truth":  "Theo chÃ­nh sÃ¡ch v2024 HIá»†N HÃ€NH: 15 ngÃ y cÆ¡ báº£n (+1 ngÃ y/3 nÄƒm thÃ¢m niÃªn). ChÃ­nh sÃ¡ch v2023 (Ä‘Ã£ bá»‹ thay tháº¿) lÃ  12 ngÃ y. RAG cÃ³ thá»ƒ retrieve cáº£ 2 tÃ i liá»‡u â€” cÃ¢u tráº£ lá»i Ä‘Ãºng pháº£i Æ°u tiÃªn v2024."
+    },
+    {
+        "id":  42,
+        "distribution":  "adversarial",
+        "question":  "ThÃ¢m niÃªn bao nhiÃªu nÄƒm thÃ¬ Ä‘Æ°á»£c cá»™ng thÃªm ngÃ y phÃ©p?",
+        "answer":  "Theo v2024 (hiá»‡n hÃ nh): tá»« 3 nÄƒm thÃ¢m niÃªn, cá»© má»—i 3 nÄƒm thÃªm 1 ngÃ y. ChÃ­nh sÃ¡ch v2023 (Ä‘Ã£ háº¿t hiá»‡u lá»±c) yÃªu cáº§u 5 nÄƒm. CÃ¢u tráº£ lá»i Ä‘Ãºng lÃ  theo v2024.",
+        "contexts":  [
+                         "Theo v2024 (hiá»‡n hÃ nh): tá»« 3 nÄƒm thÃ¢m niÃªn, cá»© má»—i 3 nÄƒm thÃªm 1 ngÃ y. ChÃ­nh sÃ¡ch v2023 (Ä‘Ã£ háº¿t hiá»‡u lá»±c) yÃªu cáº§u 5 nÄƒm. CÃ¢u tráº£ lá»i Ä‘Ãºng lÃ  theo v2024."
+                     ],
+        "ground_truth":  "Theo v2024 (hiá»‡n hÃ nh): tá»« 3 nÄƒm thÃ¢m niÃªn, cá»© má»—i 3 nÄƒm thÃªm 1 ngÃ y. ChÃ­nh sÃ¡ch v2023 (Ä‘Ã£ háº¿t hiá»‡u lá»±c) yÃªu cáº§u 5 nÄƒm. CÃ¢u tráº£ lá»i Ä‘Ãºng lÃ  theo v2024."
+    },
+    {
+        "id":  43,
+        "distribution":  "adversarial",
+        "question":  "Máº­t kháº©u pháº£i cÃ³ tá»‘i thiá»ƒu bao nhiÃªu kÃ½ tá»±?",
+        "answer":  "Theo v2.0 HIá»†N HÃ€NH: tá»‘i thiá»ƒu 12 kÃ½ tá»±. ChÃ­nh sÃ¡ch v1.0 (Ä‘Ã£ thay tháº¿) yÃªu cáº§u 8 kÃ½ tá»±. RAG cÃ³ thá»ƒ láº¥y cáº£ 2 tÃ i liá»‡u â€” cÃ¢u tráº£ lá»i Ä‘Ãºng lÃ  12 kÃ½ tá»±.",
+        "contexts":  [
+                         "Theo v2.0 HIá»†N HÃ€NH: tá»‘i thiá»ƒu 12 kÃ½ tá»±. ChÃ­nh sÃ¡ch v1.0 (Ä‘Ã£ thay tháº¿) yÃªu cáº§u 8 kÃ½ tá»±. RAG cÃ³ thá»ƒ láº¥y cáº£ 2 tÃ i liá»‡u â€” cÃ¢u tráº£ lá»i Ä‘Ãºng lÃ  12 kÃ½ tá»±."
+                     ],
+        "ground_truth":  "Theo v2.0 HIá»†N HÃ€NH: tá»‘i thiá»ƒu 12 kÃ½ tá»±. ChÃ­nh sÃ¡ch v1.0 (Ä‘Ã£ thay tháº¿) yÃªu cáº§u 8 kÃ½ tá»±. RAG cÃ³ thá»ƒ láº¥y cáº£ 2 tÃ i liá»‡u â€” cÃ¢u tráº£ lá»i Ä‘Ãºng lÃ  12 kÃ½ tá»±."
+    },
+    {
+        "id":  44,
+        "distribution":  "adversarial",
+        "question":  "Bao lÃ¢u pháº£i Ä‘á»•i máº­t kháº©u má»™t láº§n?",
+        "answer":  "Theo v2.0 HIá»†N HÃ€NH: má»—i 120 ngÃ y. ChÃ­nh sÃ¡ch v1.0 (Ä‘Ã£ háº¿t hiá»‡u lá»±c) lÃ  90 ngÃ y. CÃ¢u tráº£ lá»i Ä‘Ãºng lÃ  120 ngÃ y.",
+        "contexts":  [
+                         "Theo v2.0 HIá»†N HÃ€NH: má»—i 120 ngÃ y. ChÃ­nh sÃ¡ch v1.0 (Ä‘Ã£ háº¿t hiá»‡u lá»±c) lÃ  90 ngÃ y. CÃ¢u tráº£ lá»i Ä‘Ãºng lÃ  120 ngÃ y."
+                     ],
+        "ground_truth":  "Theo v2.0 HIá»†N HÃ€NH: má»—i 120 ngÃ y. ChÃ­nh sÃ¡ch v1.0 (Ä‘Ã£ háº¿t hiá»‡u lá»±c) lÃ  90 ngÃ y. CÃ¢u tráº£ lá»i Ä‘Ãºng lÃ  120 ngÃ y."
+    },
+    {
+        "id":  45,
+        "distribution":  "adversarial",
+        "question":  "CÃ³ cáº§n kÃ­ch hoáº¡t xÃ¡c thá»±c Ä‘a yáº¿u tá»‘ (MFA) khÃ´ng?",
+        "answer":  "CÃ³, theo v2.0 HIá»†N HÃ€NH, MFA báº¯t buá»™c cho táº¥t cáº£ nhÃ¢n viÃªn: email, VPN vÃ  há»‡ thá»‘ng ná»™i bá»™. Policy v1.0 cÅ© khÃ´ng yÃªu cáº§u MFA â€” Ä‘Ã¢y lÃ  báº«y version conflict.",
+        "contexts":  [
+                         "CÃ³, theo v2.0 HIá»†N HÃ€NH, MFA báº¯t buá»™c cho táº¥t cáº£ nhÃ¢n viÃªn: email, VPN vÃ  há»‡ thá»‘ng ná»™i bá»™. Policy v1.0 cÅ© khÃ´ng yÃªu cáº§u MFA â€” Ä‘Ã¢y lÃ  báº«y version conflict."
+                     ],
+        "ground_truth":  "CÃ³, theo v2.0 HIá»†N HÃ€NH, MFA báº¯t buá»™c cho táº¥t cáº£ nhÃ¢n viÃªn: email, VPN vÃ  há»‡ thá»‘ng ná»™i bá»™. Policy v1.0 cÅ© khÃ´ng yÃªu cáº§u MFA â€” Ä‘Ã¢y lÃ  báº«y version conflict."
+    },
+    {
+        "id":  46,
+        "distribution":  "adversarial",
+        "question":  "NhÃ¢n viÃªn thá»­ viá»‡c cÃ³ Ä‘Æ°á»£c nghá»‰ phÃ©p nÄƒm khÃ´ng?",
+        "answer":  "KHÃ”NG. NhÃ¢n viÃªn thá»­ viá»‡c khÃ´ng Ä‘Æ°á»£c nghá»‰ phÃ©p nÄƒm. Náº¿u cáº§n nghá»‰ pháº£i xin nghá»‰ khÃ´ng lÆ°Æ¡ng vÃ  Ä‘Æ°á»£c trÆ°á»Ÿng phÃ²ng phÃª duyá»‡t. ÄÃ¢y lÃ  negation trap â€” cÃ¢u tráº£ lá»i Ä‘Ãºng lÃ  phá»§ Ä‘á»‹nh.",
+        "contexts":  [
+                         "KHÃ”NG. NhÃ¢n viÃªn thá»­ viá»‡c khÃ´ng Ä‘Æ°á»£c nghá»‰ phÃ©p nÄƒm. Náº¿u cáº§n nghá»‰ pháº£i xin nghá»‰ khÃ´ng lÆ°Æ¡ng vÃ  Ä‘Æ°á»£c trÆ°á»Ÿng phÃ²ng phÃª duyá»‡t. ÄÃ¢y lÃ  negation trap â€” cÃ¢u tráº£ lá»i Ä‘Ãºng lÃ  phá»§ Ä‘á»‹nh."
+                     ],
+        "ground_truth":  "KHÃ”NG. NhÃ¢n viÃªn thá»­ viá»‡c khÃ´ng Ä‘Æ°á»£c nghá»‰ phÃ©p nÄƒm. Náº¿u cáº§n nghá»‰ pháº£i xin nghá»‰ khÃ´ng lÆ°Æ¡ng vÃ  Ä‘Æ°á»£c trÆ°á»Ÿng phÃ²ng phÃª duyá»‡t. ÄÃ¢y lÃ  negation trap â€” cÃ¢u tráº£ lá»i Ä‘Ãºng lÃ  phá»§ Ä‘á»‹nh."
+    },
+    {
+        "id":  47,
+        "distribution":  "adversarial",
+        "question":  "Khi phÃ¡t hiá»‡n malware trÃªn mÃ¡y tÃ­nh cÃ´ng ty, nhÃ¢n viÃªn cÃ³ nÃªn tá»± xá»­ lÃ½ khÃ´ng?",
+        "answer":  "KHÃ”NG. Tuyá»‡t Ä‘á»‘i khÃ´ng tá»± xá»­ lÃ½. Pháº£i bÃ¡o cÃ¡o trong vÃ²ng 1 giá» qua helpdesk@cty.vn hoáº·c hotline CNTT (ext. 9999). Tá»± xá»­ lÃ½ bá»‹ coi lÃ  vi pháº¡m nghiÃªm trá»ng.",
+        "contexts":  [
+                         "KHÃ”NG. Tuyá»‡t Ä‘á»‘i khÃ´ng tá»± xá»­ lÃ½. Pháº£i bÃ¡o cÃ¡o trong vÃ²ng 1 giá» qua helpdesk@cty.vn hoáº·c hotline CNTT (ext. 9999). Tá»± xá»­ lÃ½ bá»‹ coi lÃ  vi pháº¡m nghiÃªm trá»ng."
+                     ],
+        "ground_truth":  "KHÃ”NG. Tuyá»‡t Ä‘á»‘i khÃ´ng tá»± xá»­ lÃ½. Pháº£i bÃ¡o cÃ¡o trong vÃ²ng 1 giá» qua helpdesk@cty.vn hoáº·c hotline CNTT (ext. 9999). Tá»± xá»­ lÃ½ bá»‹ coi lÃ  vi pháº¡m nghiÃªm trá»ng."
+    },
+    {
+        "id":  48,
+        "distribution":  "adversarial",
+        "question":  "NhÃ¢n viÃªn thá»­ viá»‡c cÃ³ Ä‘Æ°á»£c hÆ°á»Ÿng báº£o hiá»ƒm sá»©c khá»e PVI khÃ´ng?",
+        "answer":  "KHÃ”NG. NhÃ¢n viÃªn thá»­ viá»‡c chÆ°a Ä‘Æ°á»£c hÆ°á»Ÿng gÃ³i PVI. Chá»‰ Ä‘Æ°á»£c tham gia BHXH báº¯t buá»™c. ÄÃ¢y lÃ  negation trap â€” pipeline hay nháº§m vÃ¬ tÃ i liá»‡u PVI khÃ´ng Ä‘á» cáº­p rÃµ exclusion.",
+        "contexts":  [
+                         "KHÃ”NG. NhÃ¢n viÃªn thá»­ viá»‡c chÆ°a Ä‘Æ°á»£c hÆ°á»Ÿng gÃ³i PVI. Chá»‰ Ä‘Æ°á»£c tham gia BHXH báº¯t buá»™c. ÄÃ¢y lÃ  negation trap â€” pipeline hay nháº§m vÃ¬ tÃ i liá»‡u PVI khÃ´ng Ä‘á» cáº­p rÃµ exclusion."
+                     ],
+        "ground_truth":  "KHÃ”NG. NhÃ¢n viÃªn thá»­ viá»‡c chÆ°a Ä‘Æ°á»£c hÆ°á»Ÿng gÃ³i PVI. Chá»‰ Ä‘Æ°á»£c tham gia BHXH báº¯t buá»™c. ÄÃ¢y lÃ  negation trap â€” pipeline hay nháº§m vÃ¬ tÃ i liá»‡u PVI khÃ´ng Ä‘á» cáº­p rÃµ exclusion."
+    },
+    {
+        "id":  49,
+        "distribution":  "adversarial",
+        "question":  "Theo chÃ­nh sÃ¡ch nghá»‰ phÃ©p cÅ© (v2023), nhÃ¢n viÃªn Ä‘Æ°á»£c nghá»‰ bao nhiÃªu ngÃ y? CÃ²n chÃ­nh sÃ¡ch nÃ o Ä‘ang cÃ³ hiá»‡u lá»±c hiá»‡n táº¡i?",
+        "answer":  "ChÃ­nh sÃ¡ch cÅ© v2023 (ÄÃƒ Háº¾T HIá»†U Lá»°C): 12 ngÃ y phÃ©p, thÃªm 1 ngÃ y/5 nÄƒm thÃ¢m niÃªn. ChÃ­nh sÃ¡ch HIá»†N HÃ€NH v2024: 15 ngÃ y cÆ¡ báº£n, thÃªm 1 ngÃ y/3 nÄƒm thÃ¢m niÃªn. Pipeline tá»‘t pháº£i nháº­n ra v2024 lÃ  báº£n hiá»‡u lá»±c.",
+        "contexts":  [
+                         "ChÃ­nh sÃ¡ch cÅ© v2023 (ÄÃƒ Háº¾T HIá»†U Lá»°C): 12 ngÃ y phÃ©p, thÃªm 1 ngÃ y/5 nÄƒm thÃ¢m niÃªn. ChÃ­nh sÃ¡ch HIá»†N HÃ€NH v2024: 15 ngÃ y cÆ¡ báº£n, thÃªm 1 ngÃ y/3 nÄƒm thÃ¢m niÃªn. Pipeline tá»‘t pháº£i nháº­n ra v2024 lÃ  báº£n hiá»‡u lá»±c."
+                     ],
+        "ground_truth":  "ChÃ­nh sÃ¡ch cÅ© v2023 (ÄÃƒ Háº¾T HIá»†U Lá»°C): 12 ngÃ y phÃ©p, thÃªm 1 ngÃ y/5 nÄƒm thÃ¢m niÃªn. ChÃ­nh sÃ¡ch HIá»†N HÃ€NH v2024: 15 ngÃ y cÆ¡ báº£n, thÃªm 1 ngÃ y/3 nÄƒm thÃ¢m niÃªn. Pipeline tá»‘t pháº£i nháº­n ra v2024 lÃ  báº£n hiá»‡u lá»±c."
+    },
+    {
+        "id":  50,
+        "distribution":  "adversarial",
+        "question":  "NhÃ¢n viÃªn Manager cÃ³ thá»ƒ dÃ¹ng VPN cÃ¡ nhÃ¢n (nhÆ° NordVPN) khi WFH Ä‘á»ƒ tÄƒng báº£o máº­t thÃªm khÃ´ng?",
+        "answer":  "KHÃ”NG. ChÃ­nh sÃ¡ch VPN v1.3 cáº¥m sá»­ dá»¥ng VPN cÃ¡ nhÃ¢n (NordVPN, ExpressVPN) trong máº¡ng cÃ´ng ty. Báº¯t buá»™c dÃ¹ng VPN WireGuard cá»§a cÃ´ng ty. ÄÃ¢y lÃ  policy contradiction trap â€” cÃ¢u há»i nghe há»£p lÃ½ nhÆ°ng vi pháº¡m chÃ­nh sÃ¡ch.",
+        "contexts":  [
+                         "KHÃ”NG. ChÃ­nh sÃ¡ch VPN v1.3 cáº¥m sá»­ dá»¥ng VPN cÃ¡ nhÃ¢n (NordVPN, ExpressVPN) trong máº¡ng cÃ´ng ty. Báº¯t buá»™c dÃ¹ng VPN WireGuard cá»§a cÃ´ng ty. ÄÃ¢y lÃ  policy contradiction trap â€” cÃ¢u há»i nghe há»£p lÃ½ nhÆ°ng vi pháº¡m chÃ­nh sÃ¡ch."
+                     ],
+        "ground_truth":  "KHÃ”NG. ChÃ­nh sÃ¡ch VPN v1.3 cáº¥m sá»­ dá»¥ng VPN cÃ¡ nhÃ¢n (NordVPN, ExpressVPN) trong máº¡ng cÃ´ng ty. Báº¯t buá»™c dÃ¹ng VPN WireGuard cá»§a cÃ´ng ty. ÄÃ¢y lÃ  policy contradiction trap â€” cÃ¢u há»i nghe há»£p lÃ½ nhÆ°ng vi pháº¡m chÃ­nh sÃ¡ch."
+    }
+]

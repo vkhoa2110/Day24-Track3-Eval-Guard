@@ -1,0 +1,125 @@
+{
+  "judge_model": "gpt-4o-mini",
+  "pairwise_results": [
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày khi kết hôn?",
+      "answer_a": "Nhân viên được nghỉ 3 ngày làm việc có lương khi kết hôn.",
+      "answer_b": "Khong tim thay du thong tin trong ngu canh de tra loi.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A is more directly relevant and better matches expected policy details.",
+      "reasoning_pass2": "Answer B is more directly relevant and better matches expected policy details.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.525,
+        "B": 0.0
+      },
+      "scores_pass2": {
+        "A": 0.525,
+        "B": 0.0
+      }
+    },
+    {
+      "question": "Muốn mua thiết bị trị giá 55 triệu cần ai phê duyệt?",
+      "answer_a": "Cần Giám đốc phòng ban phê duyệt.",
+      "answer_b": "Khong tim thay du thong tin trong ngu canh de tra loi.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A is more directly relevant and better matches expected policy details.",
+      "reasoning_pass2": "Answer B is more directly relevant and better matches expected policy details.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.279,
+        "B": 0.0
+      },
+      "scores_pass2": {
+        "A": 0.279,
+        "B": 0.0
+      }
+    },
+    {
+      "question": "Thưởng Tết tối thiểu cho nhân viên chính thức có từ 6 tháng trở lên là bao nhiêu?",
+      "answer_a": "Nhân viên được thưởng Tết tối thiểu 1 tháng lương.",
+      "answer_b": "Khong tim thay du thong tin trong ngu canh de tra loi.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A is more directly relevant and better matches expected policy details.",
+      "reasoning_pass2": "Answer B is more directly relevant and better matches expected policy details.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.341,
+        "B": 0.0
+      },
+      "scores_pass2": {
+        "A": 0.341,
+        "B": 0.0
+      }
+    },
+    {
+      "question": "Một nhân viên Senior có 9 năm thâm niên được nghỉ bao nhiêu ngày phép năm và lương trong khoảng nào?",
+      "answer_a": "Được nghỉ 18 ngày phép (15 cơ bản + 3 thâm niên). Lương Senior từ 20 đến 35 triệu.",
+      "answer_b": "Khong tim thay du thong tin trong ngu canh de tra loi.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A is more directly relevant and better matches expected policy details.",
+      "reasoning_pass2": "Answer B is more directly relevant and better matches expected policy details.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.55,
+        "B": 0.0
+      },
+      "scores_pass2": {
+        "A": 0.55,
+        "B": 0.0
+      }
+    },
+    {
+      "question": "Nhân viên được tài trợ khóa học 25 triệu, nghỉ việc sau 8 tháng. Phải hoàn trả bao nhiêu?",
+      "answer_a": "Hoàn trả 25 triệu vì chưa đủ 1 năm cam kết.",
+      "answer_b": "Khong tim thay du thong tin trong ngu canh de tra loi.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A is more directly relevant and better matches expected policy details.",
+      "reasoning_pass2": "Answer B is more directly relevant and better matches expected policy details.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.243,
+        "B": 0.0
+      },
+      "scores_pass2": {
+        "A": 0.243,
+        "B": 0.0
+      }
+    }
+  ],
+  "judge_labels": [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+  ],
+  "cohen_kappa": 0.8,
+  "bias_report": {
+    "total_judged": 5,
+    "position_bias_rate": 0.0,
+    "position_bias_count": 0,
+    "verbosity_bias": 0.4,
+    "verbosity_details": {
+      "a_wins_a_longer": 2,
+      "b_wins_b_longer": 0,
+      "total_decisive": 5
+    },
+    "interpretation": "Judge behavior is stable on this sample."
+  }
+}

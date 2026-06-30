@@ -1,0 +1,158 @@
+{
+  "total_questions": 50,
+  "per_distribution": {
+    "factual": {
+      "count": 20,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7355,
+      "context_precision": 0.7355,
+      "context_recall": 1.0,
+      "avg_score": 0.8678
+    },
+    "multi_hop": {
+      "count": 20,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.586,
+      "context_precision": 0.586,
+      "context_recall": 1.0,
+      "avg_score": 0.793
+    },
+    "adversarial": {
+      "count": 10,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5704,
+      "context_precision": 0.5704,
+      "context_recall": 1.0,
+      "avg_score": 0.7852
+    }
+  },
+  "failure_clusters": {
+    "matrix": {
+      "faithfulness": {
+        "factual": 0,
+        "multi_hop": 0,
+        "adversarial": 0
+      },
+      "answer_relevancy": {
+        "factual": 20,
+        "multi_hop": 20,
+        "adversarial": 10
+      },
+      "context_precision": {
+        "factual": 0,
+        "multi_hop": 0,
+        "adversarial": 0
+      },
+      "context_recall": {
+        "factual": 0,
+        "multi_hop": 0,
+        "adversarial": 0
+      }
+    },
+    "dominant_failure_distribution": "factual",
+    "dominant_failure_metric": "answer_relevancy",
+    "insight": "Most failures are concentrated in 'factual'. The dominant weak metric is 'answer_relevancy' (Answer does not match the question). Recommended next fix: Improve the answer prompt and ask for direct answers first."
+  },
+  "bottom_10": [
+    {
+      "rank": 1,
+      "question_id": 47,
+      "distribution": "adversarial",
+      "question": "Khi phÃ¡t hiá»‡n malware trÃªn mÃ¡y tÃ­nh cÃ´ng ty, nhÃ¢n viÃªn cÃ³ nÃªn tá»± xá»­ lÃ½ khÃ´ng?",
+      "avg_score": 0.6591,
+      "worst_metric": "answer_relevancy",
+      "diagnosis": "Answer does not match the question",
+      "suggested_fix": "Improve the answer prompt and ask for direct answers first"
+    },
+    {
+      "rank": 2,
+      "question_id": 40,
+      "distribution": "multi_hop",
+      "question": "NhÃ¢n viÃªn thá»­ viá»‡c thÃ¡ng thá»© 3 phÃ¡t hiá»‡n vi pháº¡m báº£o máº­t. Há» nÃªn vÃ  khÃ´ng nÃªn lÃ m gÃ¬ theo chÃ­nh sÃ¡ch?",
+      "avg_score": 0.6724,
+      "worst_metric": "answer_relevancy",
+      "diagnosis": "Answer does not match the question",
+      "suggested_fix": "Improve the answer prompt and ask for direct answers first"
+    },
+    {
+      "rank": 3,
+      "question_id": 24,
+      "distribution": "multi_hop",
+      "question": "NhÃ¢n viÃªn táº¡m á»©ng 15 triá»‡u, sau 20 ngÃ y má»›i thanh toÃ¡n. Bá»‹ pháº¡t bao nhiÃªu?",
+      "avg_score": 0.6739,
+      "worst_metric": "answer_relevancy",
+      "diagnosis": "Answer does not match the question",
+      "suggested_fix": "Improve the answer prompt and ask for direct answers first"
+    },
+    {
+      "rank": 4,
+      "question_id": 5,
+      "distribution": "factual",
+      "question": "Muá»‘n mua thiáº¿t bá»‹ trá»‹ giÃ¡ 55 triá»‡u cáº§n ai phÃª duyá»‡t?",
+      "avg_score": 0.7,
+      "worst_metric": "answer_relevancy",
+      "diagnosis": "Answer does not match the question",
+      "suggested_fix": "Improve the answer prompt and ask for direct answers first"
+    },
+    {
+      "rank": 5,
+      "question_id": 21,
+      "distribution": "multi_hop",
+      "question": "Má»™t nhÃ¢n viÃªn Senior cÃ³ 9 nÄƒm thÃ¢m niÃªn Ä‘Æ°á»£c nghá»‰ bao nhiÃªu ngÃ y phÃ©p nÄƒm vÃ  lÆ°Æ¡ng trong khoáº£ng nÃ o?",
+      "avg_score": 0.7,
+      "worst_metric": "answer_relevancy",
+      "diagnosis": "Answer does not match the question",
+      "suggested_fix": "Improve the answer prompt and ask for direct answers first"
+    },
+    {
+      "rank": 6,
+      "question_id": 41,
+      "distribution": "adversarial",
+      "question": "NhÃ¢n viÃªn Ä‘Æ°á»£c nghá»‰ bao nhiÃªu ngÃ y phÃ©p nÄƒm?",
+      "avg_score": 0.7,
+      "worst_metric": "answer_relevancy",
+      "diagnosis": "Answer does not match the question",
+      "suggested_fix": "Improve the answer prompt and ask for direct answers first"
+    },
+    {
+      "rank": 7,
+      "question_id": 18,
+      "distribution": "factual",
+      "question": "CÆ¡ cáº¥u Ä‘iá»ƒm Ä‘Ã¡nh giÃ¡ hiá»‡u suáº¥t gá»“m nhá»¯ng thÃ nh pháº§n nÃ o vÃ  tá»· lá»‡ ra sao?",
+      "avg_score": 0.7115,
+      "worst_metric": "answer_relevancy",
+      "diagnosis": "Answer does not match the question",
+      "suggested_fix": "Improve the answer prompt and ask for direct answers first"
+    },
+    {
+      "rank": 8,
+      "question_id": 20,
+      "distribution": "factual",
+      "question": "Phá»¥ cáº¥p Ä‘i láº¡i tá»‘i Ä‘a má»—i thÃ¡ng lÃ  bao nhiÃªu vÃ  Ä‘iá»u kiá»‡n Ä‘á»ƒ Ä‘Æ°á»£c hÆ°á»Ÿng lÃ  gÃ¬?",
+      "avg_score": 0.7115,
+      "worst_metric": "answer_relevancy",
+      "diagnosis": "Answer does not match the question",
+      "suggested_fix": "Improve the answer prompt and ask for direct answers first"
+    },
+    {
+      "rank": 9,
+      "question_id": 34,
+      "distribution": "multi_hop",
+      "question": "NhÃ¢n viÃªn táº¡m á»©ng 4 triá»‡u vÃ  má»™t nhÃ¢n viÃªn khÃ¡c táº¡m á»©ng 7 triá»‡u: quy trÃ¬nh phÃª duyá»‡t khÃ¡c nhau tháº¿ nÃ o?",
+      "avg_score": 0.72,
+      "worst_metric": "answer_relevancy",
+      "diagnosis": "Answer does not match the question",
+      "suggested_fix": "Improve the answer prompt and ask for direct answers first"
+    },
+    {
+      "rank": 10,
+      "question_id": 26,
+      "distribution": "multi_hop",
+      "question": "NhÃ¢n viÃªn vá»«a káº¿t hÃ´n vÃ  cÃ¹ng tuáº§n Ä‘Ã³ cÃ³ con káº¿t hÃ´n. Tá»•ng sá»‘ ngÃ y nghá»‰ Ä‘áº·c biá»‡t cÃ³ lÆ°Æ¡ng lÃ  bao nhiÃªu?",
+      "avg_score": 0.7586,
+      "worst_metric": "answer_relevancy",
+      "diagnosis": "Answer does not match the question",
+      "suggested_fix": "Improve the answer prompt and ask for direct answers first"
+    }
+  ]
+}
